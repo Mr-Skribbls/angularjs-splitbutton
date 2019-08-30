@@ -1,0 +1,20 @@
+{
+  "name": "angularjs-splitbutton",
+  "version": "1.0.3",
+  "description": "angularjs split button",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mr-Skribbls/angularjs-splitbutton"
+  },
+  "main": "splitButton.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angularjs",
+    "split",
+    "button"
+  ],
+  "author": "mr-skribbls",
+  "license": "MIT"
+}
