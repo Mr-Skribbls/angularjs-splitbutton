@@ -1,0 +1,27 @@
+.splitBtn-container {
+  margin-right: 20px;
+  position: relative;
+  width: calc(100% - 20px);
+}
+.splitBtn-container button {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+}
+.splitBtn-container button span {
+  width: 100%;
+}
+.splitBtn-container select {
+  width: 20px;
+  height: 36px;
+  border: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  position: absolute;
+  right: -20px;
+}
