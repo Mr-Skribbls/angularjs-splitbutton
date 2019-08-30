@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Split Button Development</title>
+
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-animate.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-aria.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
+
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.css">
+
+  <link rel="stylesheet" href="../splitButton.css">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body ng-app="app" ng-controller="mainCtrl as v" layout-padding ng-cloak>
+  <div class="container">
+    <split-button options="v.options" default-option="v.defaultOption" on-choice="v.onChoice(option)"></split-button>
+  </div>
+  <span>{{v.output}}</span>
+</body>
+
+<script src="../splitButton.js"></script>
+<script src="./app.js"></script>
+</html>
